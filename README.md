@@ -1,16 +1,49 @@
-# React + Vite
+Dumpster Dice
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Dumpster Dice (also known as Garbage Dice) is a digital recreation of the fast-paced dice game where players race to fill numbered slots on a trash can lid. Roll, claim, and outlast your opponents to become the last player with dice remaining!
 
-Currently, two official plugins are available:
+Built using React + Vite, this online version keeps gameplay snappy, colorful, and multiplayer-friendly for local play.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🎮 How to Play
 
-## React Compiler
+Goal:
+Be the last player with dice remaining!
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Setup:
 
-## Expanding the ESLint configuration
+Choose the number of players (2–4).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Each player enters their name and selects a color.
+
+Every player starts with 20 dice.
+
+Gameplay:
+
+On your turn, click “Roll Dice”.
+
+If your roll matches an empty slot (1–6) on the lid, place your die there.
+
+If that slot is already taken, your die goes into the dumpster.
+
+The player who fills the final empty slot collects all dice from the lid.
+
+Play continues until a player runs out of dice — they’re eliminated.
+
+The last player with dice wins!
+
+Resetting:
+At any time, you can click the red reset button in the bottom-right corner to start over.
+
+🧱 Tech Stack
+
+⚡ Vite — for blazing-fast dev environment
+
+⚛️ React — component-based UI
+
+🎨 TailwindCSS — for styling and layout
+
+🎞️ Framer Motion — for dice and UI animations
+
+🚀 Getting Started
+
+Clone the repository
