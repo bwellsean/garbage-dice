@@ -62,7 +62,7 @@ export default function SetupScreen({ onStart }) {
 
   return (
     <div className="setup-screen flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white">
-      <h1 className="text-3xl font-bold mb-4">🗑️ Trash Can Dice Game</h1>
+      <h1 className="text-3xl font-bold mb-4">🗑️ Garbage Dice 🗑️</h1>
 
       <label className="mb-2">
         Number of Players:
